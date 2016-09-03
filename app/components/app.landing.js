@@ -1,8 +1,8 @@
 (function(app) {
   app.AppComponent =
     ng.core.Component({
-      selector: 'vesseltrip',
-      template: '<h1>Landing-Page VesselTrip</h1>'
+      selector: 'landing-page',
+        templateUrl: 'app/landing-page.components.html'
     })
     .Class({
       constructor: function() {}
